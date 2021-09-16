@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-1 .row .col-md-6 .pray {
+    padding-top: 15vmin;
+  }
+  .section-3 .col-md-12 > h1 {
+    font-size: 4vmin;
+  }
+  .section-3 .col-md-12 > p {
+    font-size: 2vmin;
+  }
+  .section-3 {
+    padding: 3vmin !important;
+
+    height: 75vmin !important;
+  }
+
+  .section-3 i {
+    transform: scale(0.7);
+    padding-right: 0vmin !important;
+  }
+  .section-4 .team {
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  /* .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  } */
+  .section-4 .carousel-inner {
+    width: 24rem;
+  }
+}
+@media only screen and (max-width: 574px) {
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+  .section-3 .text-start {
+    text-align: center !important;
+  }
+  .section-3 .text-end {
+    text-align: center !important;
+  }
+  .lala {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .lala {
+    margin-right: 20px !important;
+  }
+}
